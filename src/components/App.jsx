@@ -1,10 +1,8 @@
-import Page from "./Page";
 
 function App() {
   return (
     <div className="App">
-        <Page />
-
+        <h1>Hello World!</h1>
     </div>
   );
 }
