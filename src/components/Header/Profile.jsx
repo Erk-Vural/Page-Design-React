@@ -1,11 +1,11 @@
 import React from "react";
 
-function Account() {
-return  (
+function Profile() {
+  return (
     <div>
-        <p className="profile">Profile</p>
+      <p className="profile">Profile</p>
     </div>
-)
+  );
 }
 
-export default Account; 
+export default Profile;
