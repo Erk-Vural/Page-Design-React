@@ -1,18 +1,30 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles.css";
 
 import FilterBy from "./FilterBy";
 import ListBy from "./ListBy";
 import Sort from "./Sort";
 import Tag from "./Tag";
-import Display from "./Display";
 
 function Index(props) {
-  const [layout, setLayout] = useState("Grid");
-
-  function readLayout(newLayout) {
-    setLayout(newLayout);
-  }
+  const Display = (
+    <div className="Display">
+    <button
+      onClick={() => {
+        props.getLayout("Grid");
+      }}
+    >
+      <span>Grid</span>
+    </button>
+    <button
+      onClick={() => {
+        props.getLayout("List");
+      }}
+    >
+      <span>List</span>
+    </button>
+  </div>
+  );
 
   return (
     <div className="Options">
@@ -20,13 +32,7 @@ function Index(props) {
       <ListBy />
       <Sort />
       <Tag />
-      <div
-        onClick={() => {
-          props.getLayout(layout);
-        }}
-      >
-        <Display layout={readLayout} />
-      </div>
+      {Display}
     </div>
   );
 }

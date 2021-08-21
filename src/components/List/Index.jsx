@@ -14,6 +14,7 @@ function List() {
 
   return (
     <div className={layout}>
+      <button>Hide List</button>
       <Options getLayout={getLayout} />
 
       {list.map((listItem) => (

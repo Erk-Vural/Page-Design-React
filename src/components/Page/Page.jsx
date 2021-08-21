@@ -1,8 +1,9 @@
 import React from "react";
-import Header from "./Header/Index";
-import Footer from "./Footer/Index";
-import Venue from "./Venue";
-import "./Page.css";
+import "./styles.css";
+
+import Header from "../Header/Index";
+import Footer from "../Footer/Index";
+import Venue from "../Venue/Index";
 
 
 function Page() {
