@@ -1,24 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
+import "./styles.css";
+
 import Item from "./Item";
 import Options from "./Options/Index";
 import list from "../../list";
 
-function List(props) {
-    return (
-        <div className={props.class}>
-            <Options />
+function List() {
+    const [layout, setLayout] = useState("Grid");
 
-            {list.map(listItem => (
-                <Item
-                    key={listItem.key}
-                    icon={listItem.icon}
-                    title={listItem.title}
-                    description={listItem.description}
-                />
-            ))}
+  function getLayout(newLayout) {
+      setLayout(newLayout);
+  }
 
-        </div>
-    );
+  return (
+    <div className={layout}>
+      <Options getLayout={getLayout} />
+
+      {list.map((listItem) => (
+        <Item
+          key={listItem.key}
+          icon={listItem.icon}
+          title={listItem.title}
+          description={listItem.description}
+        />
+      ))}
+    </div>
+  );
 }
 
 export default List;
