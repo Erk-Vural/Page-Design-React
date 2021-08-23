@@ -4,9 +4,16 @@
 
 .totalResults {
   color: rgb(146, 146, 146);
+  margin: auto auto auto 20px;
   font-size: small;
 }
 
+.pagination {
+  margin: auto;
+  width: 50%;
+  position: relative;
+  clear: both;
+}
 
 .Grid .Item {
   background: #fff;

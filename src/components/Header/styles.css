@@ -1,8 +1,8 @@
 .Header {
-  margin: auto -16px;
   padding: 20px 20px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
-  
+  width: 50%;
+  margin: auto;
+  width: 50%;
 }
 
 .Header h1 {
@@ -25,4 +25,8 @@ input {
 
 button{
   margin: 5px;
+}
+
+.Profile {
+  float :right;
 }

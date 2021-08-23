@@ -4,7 +4,7 @@ import "./styles.css";
 function Profile() {
   return (
     <div>
-      <p className="profile">Profile</p>
+      <p className="Profile">Profile</p>
     </div>
   );
 }

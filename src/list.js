@@ -32,32 +32,32 @@ const list = [
     {
         key: 6,
         icon: "../logo192.png",
-        title: "test1",
-        description: "description1",
+        title: "test6",
+        description: "description6",
     },
     {
         key: 7,
         icon: "../logo192.png",
-        title: "test2",
-        description: "description2",
+        title: "test7",
+        description: "description7",
     },
     {
         key: 8,
         icon: "../logo192.png",
-        title: "test3",
-        description: "description3",
+        title: "test8",
+        description: "description8",
     },
     {
         key: 9,
         icon: "../logo192.png",
-        title: "test4",
-        description: "description4",
+        title: "test9",
+        description: "description9",
     },
     {
         key: 10,
         icon: "../logo192.png",
-        title: "test5",
-        description: "description5",
+        title: "test10",
+        description: "description10",
     },
 ]
 
