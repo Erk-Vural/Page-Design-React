@@ -9,29 +9,29 @@ import Tag from "./Tag";
 function Index(props) {
   const Display = (
     <div className="Display">
-    <button
-      onClick={() => {
-        props.getLayout("Grid");
-      }}
-    >
-      <span>Grid</span>
-    </button>
-    <button
-      onClick={() => {
-        props.getLayout("List");
-      }}
-    >
-      <span>List</span>
-    </button>
-  </div>
+      <button
+        onClick={() => {
+          props.getLayout("Grid");
+        }}
+      >
+        <span>Grid</span>
+      </button>
+      <button
+        onClick={() => {
+          props.getLayout("List");
+        }}
+      >
+        <span>List</span>
+      </button>
+    </div>
   );
 
   return (
     <div className="Options">
-      <FilterBy />
       <ListBy />
-      <Sort />
       <Tag />
+      <FilterBy />
+      <Sort />
       {Display}
     </div>
   );

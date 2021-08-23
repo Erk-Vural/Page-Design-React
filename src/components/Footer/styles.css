@@ -1,9 +1,26 @@
 footer {
   clear: both;
   position: relative;
-  height: 200px;
-  margin-top: -200px;
+  height: 30px;
+  margin: -200px -16px auto -16px;
   text-align: center;
   bottom: 0;
-  }
+  background-color: #03193d;
+  color: rgb(168, 167, 167);
   
+  }
+
+.footerLinks {
+  float: left;
+  margin: 5px;
+}
+
+footer a {
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(168, 167, 167);
+}
+
+.copyRight {
+  float: right;
+}

@@ -6,25 +6,50 @@ import Options from "./Options/Index";
 import list from "../../list";
 
 function List() {
-    const [layout, setLayout] = useState("Grid");
+  const [layout, setLayout] = useState("Grid");
 
   function getLayout(newLayout) {
-      setLayout(newLayout);
+    setLayout(newLayout);
+  }
+
+  function getTotalResult() {
+    return (
+      <div>
+        <p className="totalResults">Showing {list.length} results</p>
+      </div>
+    );
+  }
+
+  function listItems() {
+    return (
+      <div className="listItems">
+        {list.map((listItem) => (
+          <Item
+            key={listItem.key}
+            icon={listItem.icon}
+            title={listItem.title}
+            description={listItem.description}
+          />
+        ))}
+      </div>
+    );
+  }
+
+  function hideList() {
+    
   }
 
   return (
     <div className={layout}>
-      <button>Hide List</button>
+      <div className="hideList">
+        <button onClick={hideList}>Hide List</button>
+      </div>
+      
       <Options getLayout={getLayout} />
 
-      {list.map((listItem) => (
-        <Item
-          key={listItem.key}
-          icon={listItem.icon}
-          title={listItem.title}
-          description={listItem.description}
-        />
-      ))}
+      {getTotalResult()}
+
+      {listItems()}
     </div>
   );
 }

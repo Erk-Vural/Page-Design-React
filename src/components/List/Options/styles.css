@@ -1,0 +1,24 @@
+.Display {
+    float: right;
+   
+}
+
+.FilterBy {
+    margin: 10px;
+    display: inline-block;
+}
+
+.ListBy {
+    margin: 10px;
+    display: inline-block;
+}
+
+.Sort {
+    margin: 10px;
+    display: inline-block;
+}
+
+.Tag {
+    margin: 10px;
+    display: inline-block; 
+}

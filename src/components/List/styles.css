@@ -1,60 +1,67 @@
+.hideList {
+  text-align: center;
+}
+
+.totalResults {
+  color: rgb(146, 146, 146);
+  font-size: small;
+}
+
+
 .Grid .Item {
-    background: #fff;
-    border-radius: 7px;
-    box-shadow: 0 2px 5px #ccc;
-    padding: 10px;
-    width: 240px;
-    margin: 4px;
-    float: left;
-    
-  }
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 20%;
+  margin: 4px;
+  float: left;
+}
 
-  .Grid .Item img {
-    float: center;
-    margin: 20px;
-    height: 100px;
-    width: 100px;
-  }
+.Grid .Item img {
+  float: center;
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+}
 
-  .Grid .Item h1 {
-    font-size: 1.1em;
-    margin-bottom: 6px;
-    text-align: left;
-  }
-  .Grid .Item p {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    text-align: left;
-  }
+.Grid .Item h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  text-align: left;
+}
+.Grid .Item p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: left;
+}
 
-  .List .Item {
-    background: #fff;
-    border-radius: 7px;
-    box-shadow: 0 2px 5px #ccc;
-    padding: 10px;
-    width: 90%;
-    margin: 4px;
-  }
+.List .Item {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  margin: 4px;
+}
 
-  .List .Item img {
-    float: left;
-    margin: 20px;
-    height: 40px;
-    width: 40px;
-  }
+.List .Item img {
+  float: left;
+  margin: 20px;
+  height: 40px;
+  width: 40px;
+}
 
-  .List .Item h1 {
-    font-size: 1.1em;
-    margin-bottom: 6px;
-    text-align: left;
-  }
-  .List .Item p {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    text-align: left;
-  }
-  
+.List .Item h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  text-align: left;
+}
+.List .Item p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: left;
+}
