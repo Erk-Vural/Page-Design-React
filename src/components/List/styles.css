@@ -9,12 +9,13 @@
 }
 
 .info {
-  width: 70%;
+  width: 80%;
   display: inline-block;
 }
 
 .itemBtn {
   float: right;
+  
 }
 
 .pagination {
@@ -42,16 +43,17 @@
 }
 
 .Grid .Item h1 {
-  font-size: 1.1em;
+  font-size: 1em;
   margin-bottom: 6px;
   text-align: left;
 }
 .Grid .Item p {
-  font-size: 1.1em;
+  font-size: 1em;
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
   text-align: left;
+
 }
 
 .List .Item {
@@ -64,20 +66,22 @@
 
 .List .Item img {
   float: left;
-  margin: 20px;
-  height: 40px;
-  width: 40px;
+  margin-bottom: 0.6em;
+  height: 4em;
+  width: 4em;
 }
 
 .List .Item h1 {
-  font-size: 1.1em;
+  font-size: 1em;
   margin-bottom: 6px;
   text-align: left;
+  
 }
 .List .Item p {
-  font-size: 1.1em;
+  font-size: 1em;
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
   text-align: left;
+  display: inline;
 }
