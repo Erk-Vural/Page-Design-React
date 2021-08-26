@@ -8,6 +8,15 @@
   font-size: small;
 }
 
+.info {
+  width: 70%;
+  display: inline-block;
+}
+
+.itemBtn {
+  float: right;
+}
+
 .pagination {
   margin: auto;
   width: 50%;
