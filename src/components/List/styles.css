@@ -15,7 +15,13 @@
 
 .itemBtn {
   float: right;
-  
+  border: none;
+  background-color: white;
+  font-size: large;
+}
+
+.Options p {
+  display: inline;
 }
 
 .pagination {

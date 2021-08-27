@@ -1,4 +1,23 @@
 .Venue {
-    margin: auto;
-    width: 50%;
-  }
+  margin: auto;
+  width: 50%;
+}
+
+.Venue h1 {
+  font-size: 1.5em;
+  margin-bottom:0.5em;
+}
+
+.Arrange p {
+  display: inline;
+  float: left;
+  font-size: small;
+}
+
+.Arrange .itemBtn {
+  float:left;
+  border: none;
+  background-color: white;
+  font-size: medium;
+}
+
