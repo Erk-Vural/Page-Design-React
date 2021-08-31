@@ -11,17 +11,25 @@ function Index(props) {
     <div className="Display">
       <button
         onClick={() => {
-          props.getLayout("Grid");
-        }}
-      >
-        <span>Grid</span>
-      </button>
-      <button
-        onClick={() => {
           props.getLayout("List");
         }}
       >
-        <span>List</span>
+        <img
+          className="display-list"
+          src="../List/Options/list.png"
+          alt="List"
+        ></img>
+      </button>
+      <button
+        onClick={() => {
+          props.getLayout("Grid");
+        }}
+      >
+        <img
+          className="display-grid"
+          src="../List/Options/grid.png"
+          alt="Grid"
+        ></img>
       </button>
     </div>
   );

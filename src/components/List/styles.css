@@ -1,93 +1,172 @@
+.Header {
+  width: 50%;
+  margin: auto auto 2em;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 8fr 1fr 1fr 4fr;
+  margin: 1em;
+}
+
+input {
+  width: 80%;
+  margin: 0.5em;
+  border: none;
+}
+
+.SearchBar hr {
+  width: 80%;
+  color: #d8d8d8;
+}
+
+.Profile {
+  float: right;
+}
+
+.Profile .info {
+  width: 70%;
+}
+
+.Profile h1 {
+  font-size: 1em;
+}
+
+.Profile p {
+  font-size: small;
+}
+
+.Profile img {
+  display: inline;
+  width: 3em;
+  height: 3em;
+  float: left;
+}
+
+.Profile .down {
+  float: right;
+}
+
 .hideList {
   text-align: center;
 }
 
+.hideList span {
+  margin-left: 2em;
+}
+
+.hideList img {
+  width: 0.8em;
+  height: 0.8em;
+  margin: auto 2em auto 1em;
+}
+
 .totalResults {
-  color: rgb(146, 146, 146);
+  color: #929292;
+  font-size: x-small;
   margin: auto auto auto 20px;
-  font-size: small;
-}
-
-.info {
-  width: 80%;
-  display: inline-block;
-}
-
-.itemBtn {
-  float: right;
-  border: none;
-  background-color: white;
-  font-size: large;
-}
-
-.Options p {
   display: inline;
 }
 
+.listBtn {
+  float: right;
+  padding: 0.5em;
+  border: none;
+}
+
+.listBtn img {
+  width: 1.2em;
+  height: 1.2em;
+}
+
+.listTop {
+  margin: 1em auto 0.5em;
+}
+
+.info {
+  width: 70%;
+  display: inline-block;
+}
+
+.Menu {
+  display: inline;
+  font-size: small;
+}
+
 .pagination {
-  margin: auto;
   width: 50%;
   position: relative;
   clear: both;
+  margin: auto;
 }
 
 .Grid .Item {
   background: #fff;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
-  padding: 10px;
-  width: 20%;
-  margin: 4px;
+  width: 25%;
+  margin: auto auto 0.3em;
   float: left;
+  padding: 10px;
 }
 
 .Grid .Item img {
-  float: center;
-  margin: 20px;
+  float: right;
   height: 100px;
   width: 100px;
+  margin: 20px;
 }
 
-.Grid .Item h1 {
-  font-size: 1em;
-  margin-bottom: 6px;
-  text-align: left;
-}
 .Grid .Item p {
   font-size: 1em;
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
   text-align: left;
+}
 
+.Grid .itemBtn {
+  float: right;
+  border: none;
+  background-color: #fff;
+  font-size: small;
+  padding: 0;
 }
 
 .List .Item {
-  background: #fff;
   border-radius: 7px;
-  box-shadow: 0 2px 5px #ccc;
+  box-shadow: 0.1em 0.1em 0.1em 0.1em #ccc;
+  margin: auto auto 1em;
   padding: 10px;
-  margin: 4px;
 }
 
 .List .Item img {
   float: left;
-  margin-bottom: 0.6em;
-  height: 4em;
-  width: 4em;
+  margin: 1em;
+  height: 1.5em;
+  width: 1.5em;
 }
 
-.List .Item h1 {
-  font-size: 1em;
-  margin-bottom: 6px;
-  text-align: left;
-  
-}
 .List .Item p {
-  font-size: 1em;
-  margin-bottom: 10px;
+  font-size: small;
+  margin-bottom: 1em;
   white-space: pre-wrap;
   word-wrap: break-word;
   text-align: left;
   display: inline;
+}
+
+.List .itemBtn {
+  float: right;
+  border: none;
+  size: small;
+  margin: auto;
+  padding: auto;
+}
+
+.Grid .Item h1,
+.List .Item h1 {
+  font-size: 1em;
+  margin: 1em auto auto;
+  text-align: left;
 }

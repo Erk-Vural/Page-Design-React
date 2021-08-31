@@ -11,9 +11,11 @@ function Menu() {
   ];
   const defaultOption = options[0];
   const [isPopoverOpen, setIsPopoverOpen] = useState(false);
+  const [title, setTitle] = useState(defaultOption.value);
 
   const handleSelect = (e) => {
     console.log(e.value);
+    setTitle(e.value);
     setIsPopoverOpen(!isPopoverOpen);
   };
 
@@ -34,7 +36,7 @@ function Menu() {
         className="itemBtn"
         onClick={() => setIsPopoverOpen(!isPopoverOpen)}
       >
-        All Companies
+        {title}
       </button>
     </Popover>
   );

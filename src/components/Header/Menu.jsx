@@ -4,7 +4,7 @@ import "./styles.css";
 function Menu() {
     return (
         <div className= "Menu">
-            <p>Menu</p>
+            <img src="../Header/menu.png"></img>
         </div>
     );
 }

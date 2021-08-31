@@ -7,7 +7,7 @@ import Options from "./Options/Index";
 import list from "../../list";
 
 function List() {
-  const [layout, setLayout] = useState("Grid");
+  const [layout, setLayout] = useState("List");
   const [page, setPage] = useState(1);
   const [hidden, setHidden] = useState(false);
   let itemLimit = 5;
@@ -34,7 +34,13 @@ function List() {
     } else {
       return (
         <div>
-          {getTotalResult()}
+          <div className="listTop">
+            {getTotalResult()}
+
+            <button className="listBtn">
+              <img src="../List/list-btn.png" alt="list-btn"></img>
+            </button>
+          </div>
 
           <div className="listItems">{listItems()}</div>
 
@@ -52,11 +58,7 @@ function List() {
   }
 
   function getTotalResult() {
-    return (
-      <div>
-        <p className="totalResults">Showing {list.length} results</p>
-      </div>
-    );
+    return <p className="totalResults">Showing {list.length} results</p>;
   }
 
   function listItems() {
@@ -80,7 +82,9 @@ function List() {
   return (
     <div className={layout}>
       <div className="hideList">
-        <button onClick={getHidden}>Hide List</button>
+        <button onClick={getHidden}>
+          <span>Hide List</span> <img  src="../List/Options/up.png" alt="up"></img>
+        </button>
       </div>
 
       <Options getLayout={getLayout} />

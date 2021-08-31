@@ -10,7 +10,14 @@ function Item(props) {
         <h1>{props.title}</h1>
         <p>{props.description}</p>
       </div>
-      <Menu />
+      <Menu
+        options={[
+          { value: "item1", label: "item1" },
+          { value: "item2", label: "item2" },
+          { value: "item3", label: "item3" },
+        ]}
+        title = ":"
+      />
     </div>
   );
 }

@@ -1,32 +1,77 @@
 .Header {
-  padding: 20px 20px;
   width: 50%;
-  margin: auto;
-  width: 50%;
-}
-
-.Header h1 {
-  font-family: "McLaren", cursive;
-  font-weight: 200;
-  text-align: center;
+  margin: auto auto 2em;
 }
 
 .wrapper {
-  margin: 5px;
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr 1fr 2fr;
+  grid-template-columns: 2fr 8fr 1fr 1fr 4fr;
+  margin: 1em;
+}
+
+.SearchBar {
+  margin-top: .5em;
+}
+
+.SearchBar img {
+  width: 1em;
+  height: 1em;
+  margin: 0.5em 0.5em 0.2em 0.5em;
+}
+
+.SearchBar hr {
+  width: 80%;
+  color: #d8d8d8;
 }
 
 input {
   width: 80%;
-  padding: 5px;
-  margin: 5px;
-}
-
-button{
-  margin: 5px;
+  margin: 0.5em;
+  border: none;
 }
 
 .Profile {
-  float :right;
+  float: right;
+}
+
+.Profile .info {
+  width: 70%;
+}
+
+.Profile h1 {
+  font-size: 1em;
+}
+
+.Profile p {
+  font-size: small;
+}
+
+.Profile img {
+  display: inline;
+  width: 3em;
+  height: 3em;
+  float: left;
+}
+
+.Profile .down {
+  float: right;
+}
+
+.Profile .down img {
+  float: right;
+  margin-top: 1em;
+  width: 1em;
+  height: 1em;
+}
+
+.Notifications img,
+.Menu img {
+  width: 1.5em;
+  height: 1.5em;
+  margin-top: 16px;
+}
+
+.CompanyLogo img {
+  width: 8em;
+  height: 4em;
 }

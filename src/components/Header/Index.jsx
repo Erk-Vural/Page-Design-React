@@ -3,38 +3,24 @@ import "./styles.css";
 
 import Profile from "./Profile";
 import Menu from "./Menu";
+import Notifications from "./Notifications";
+import SearchBar from "./SearchBar";
 
 function Header() {
-  const SearchBar = (
-    <form className="SearchBar">
-      <input type="text" placeholder="Search.." />
-      <button type="submit">Go</button>
-    </form>
-  );
 
-  const CompanyLogo = (<img classname="Logo" src="" alt="Company_Logo"></img>
-  );
 
-  const Notifications = (
-    <a className="Notifications" href="#!">
-      Notifications
-    </a>
+  const CompanyLogo = (
+    <img src="../Header/company.png" alt="company_logo"></img>
   );
 
   return (
     <div className="Header">
       <div className="wrapper">
-        <div>{CompanyLogo}</div>
-        <div>{SearchBar}</div>
-        <div>
-          <Menu />
-        </div>
-        <div>
-          {Notifications}
-        </div>
-        <div>
-          <Profile />
-        </div>
+        <div className="CompanyLogo">{CompanyLogo}</div>
+        <SearchBar />
+        <Menu />
+        <Notifications />
+        <Profile />
       </div>
     </div>
   );

@@ -1,14 +1,13 @@
 footer {
   clear: both;
   position: relative;
-  height: 30px;
-  margin:  3em auto auto auto;
+  height: 2em;
   text-align: center;
   bottom: 0;
   background-color: #03193d;
-  color: rgb(168, 167, 167);
-  
-  }
+  color: #a8a7a7;
+  margin: 3em auto auto;
+}
 
 .footerLinks {
   float: left;
@@ -16,11 +15,14 @@ footer {
 }
 
 footer a {
-  margin: 10px;
   text-decoration: none;
-  color: rgb(168, 167, 167);
+  color: #a8a7a7;
+  margin: 10px;
+  font-size: small;
 }
 
 .copyRight {
   float: right;
+  font-size: small;
+  margin: auto 3em auto auto;
 }

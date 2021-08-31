@@ -1,24 +1,51 @@
+.Options {
+  color: #6464c8;
+  font-size: small;
+}
+
+.Options p {
+  display: inline;
+}
+
+.Options .itemBtn {
+  float: right;
+  border: none;
+  size: small;
+  margin: auto 1em auto 0.6em;
+  padding: 0px 0px 0px 0px;
+}
+
+.Options img{
+  width: 1em;
+  height: 1em;
+  margin-right: .2em;
+}
+
 .Display {
-    float: right;
-   
+  float: right;
 }
 
-.FilterBy {
-    margin: 10px;
-    display: inline-block;
+.Display button {
+  padding: 0.1em;
+  border: none;
 }
 
-.ListBy {
-    margin: 10px;
-    display: inline-block;
+.Display .display-list {
+  width: 2.2em;
+  height: 1.2em;
+  margin: auto;
 }
 
-.Sort {
-    margin: 10px;
-    display: inline-block;
+.Display .display-grid {
+  width: 1.2em;
+  height: 1.2em;
+  margin: auto;
 }
 
+.FilterBy,
+.ListBy,
+.Sort,
 .Tag {
-    margin: 10px;
-    display: inline-block; 
+  display: inline-block;
+  margin: 10px;
 }
