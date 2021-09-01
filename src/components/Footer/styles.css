@@ -1,12 +1,12 @@
 footer {
   clear: both;
   position: relative;
-  height: 2em;
+  height: 2.5em;
   text-align: center;
   bottom: 0;
   background-color: #03193d;
   color: #a8a7a7;
-  margin: 3em auto auto;
+  margin: 2em -1em -1em -1em;
 }
 
 .footerLinks {

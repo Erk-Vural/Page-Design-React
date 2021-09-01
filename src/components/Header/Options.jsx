@@ -8,6 +8,10 @@ function Options() {
       
             <Menu 
         src = "../Header/menu.png"
+        options={[
+            { value: "one", label: "one" },
+            { value: "two", label: "two" },
+          ]}
       />
         </div>
     );

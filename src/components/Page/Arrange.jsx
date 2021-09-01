@@ -5,7 +5,12 @@ function Arrange() {
   return (
     <div className="Arrange">
       <p>Arrange by</p>
-      <Menu />
+      <Menu 
+        options = {[
+          { value: "All Companies", label: "All Companies" },
+          { value: "two", label: "Two" },
+        ]}
+      />
     </div>
   );
 }

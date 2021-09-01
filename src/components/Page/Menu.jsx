@@ -4,11 +4,8 @@ import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 import { Popover } from "react-tiny-popover";
 
-function Menu() {
-  const options = [
-    { value: "All Companies", label: "All Companies" },
-    { value: "two", label: "Two" },
-  ];
+function Menu(props) {
+  const options = props.options;
   const defaultOption = options[0];
   const [isPopoverOpen, setIsPopoverOpen] = useState(false);
   const [title, setTitle] = useState(defaultOption.value);

@@ -24,7 +24,7 @@ function List() {
     setHidden(!hidden);
   };
 
-  function showList() {
+  const showList = () => {
     if (hidden) {
       return (
         <div>
@@ -55,13 +55,13 @@ function List() {
         </div>
       );
     }
-  }
+  };
 
-  function getTotalResult() {
+  const getTotalResult = () => {
     return <p className="totalResults">Showing {list.length} results</p>;
-  }
+  };
 
-  function listItems() {
+  const listItems = () => {
     let lastItem = page * itemLimit;
     let firstItem = lastItem - itemLimit;
 
@@ -73,18 +73,19 @@ function List() {
             icon={listItem.icon}
             title={listItem.title}
             description={listItem.description}
-            layout = {layout}
+            layout={layout}
           />
         );
       }
     });
-  }
+  };
 
   return (
     <div className={layout}>
       <div className="hideList">
         <button onClick={getHidden}>
-          <span>Hide List</span> <img  src="../List/Options/up.png" alt="up"></img>
+          <span>Hide List</span>{" "}
+          <img src="../List/Options/up.png" alt="up"></img>
         </button>
       </div>
 

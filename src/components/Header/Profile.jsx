@@ -12,7 +12,13 @@ function Profile() {
       </div>
 
       <div className="down">
-        <Menu src="../Header/down.png" />
+        <Menu
+          src="../Header/down.png"
+          options={[
+            { value: "one", label: "one" },
+            { value: "two", label: "two" },
+          ]}
+        />
       </div>
     </div>
   );
