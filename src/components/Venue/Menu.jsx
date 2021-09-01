@@ -37,6 +37,7 @@ function Menu() {
         onClick={() => setIsPopoverOpen(!isPopoverOpen)}
       >
         {title}
+        <img src="../List/Options/down.png" alt="down"></img>
       </button>
     </Popover>
   );

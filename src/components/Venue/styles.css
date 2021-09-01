@@ -2,28 +2,23 @@
   width: 50%;
   margin: auto;
 }
-
 .Venue h1 {
   font-size: 1.4em;
-  margin-bottom: .8em;
+  margin-bottom: 0.8em;
 }
-
 .Arrange p {
-  display: inline;
   float: left;
   font-size: small;
-  color: #6464c8;;
+  color: #6464c8;
 }
-
 .Arrange .itemBtn {
   float: left;
   border: none;
   font-size: medium;
   margin: auto 0.5em 1em 0.6em;
-  padding: 0px 0px 0px 0px;
 }
-
 .Arrange img {
+  margin-left: 0.7em;
   width: 0.7em;
   height: 0.7em;
 }

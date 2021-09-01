@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import Menu from "./Menu";
 
 function Profile() {
   return (
@@ -9,10 +10,10 @@ function Profile() {
         <h1>James Faraday</h1>
         <p>Faraday Networks</p>
       </div>
+
       <div className="down">
-      <img src="../Header/down.png" alt="down"></img>
+        <Menu src="../Header/down.png" />
       </div>
-      
     </div>
   );
 }

@@ -5,7 +5,6 @@ function Arrange() {
   return (
     <div className="Arrange">
       <p>Arrange by</p>
-      <img src="../List/Options/down.png" alt="down"></img>
       <Menu />
     </div>
   );

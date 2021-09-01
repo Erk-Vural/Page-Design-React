@@ -1,9 +1,12 @@
 import React from "react";
+import Menu from "./Menu";
 
 function Notifications() {
   return (
     <div className="Notifications">
-      <img src="../Header/notifications.png"></img>
+      <Menu 
+        src = "../Header/notifications.png"
+      />
     </div>
   );
 }

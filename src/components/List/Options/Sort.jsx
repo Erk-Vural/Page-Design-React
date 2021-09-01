@@ -8,7 +8,7 @@ function Sort() {
         <p>Sort</p>
         <Menu
         options={[
-          { value: "CreatedDate", label: "Create Date" },
+          { value: "CreatedDate", label: "CreatedDate" },
           { value: "sort2", label: "sort2" },
           { value: "sort3", label: "sort3" },
         ]}

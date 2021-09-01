@@ -73,6 +73,7 @@ function List() {
             icon={listItem.icon}
             title={listItem.title}
             description={listItem.description}
+            layout = {layout}
           />
         );
       }

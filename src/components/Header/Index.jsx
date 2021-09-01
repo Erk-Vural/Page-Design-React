@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 
 import Profile from "./Profile";
-import Menu from "./Menu";
+import Options from "./Options";
 import Notifications from "./Notifications";
 import SearchBar from "./SearchBar";
 
@@ -18,7 +18,7 @@ function Header() {
       <div className="wrapper">
         <div className="CompanyLogo">{CompanyLogo}</div>
         <SearchBar />
-        <Menu />
+        <Options />
         <Notifications />
         <Profile />
       </div>

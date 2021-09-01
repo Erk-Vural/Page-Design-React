@@ -1,52 +1,3 @@
-.Header {
-  width: 50%;
-  margin: auto auto 2em;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 2fr 8fr 1fr 1fr 4fr;
-  margin: 1em;
-}
-
-input {
-  width: 80%;
-  margin: 0.5em;
-  border: none;
-}
-
-.SearchBar hr {
-  width: 80%;
-  color: #d8d8d8;
-}
-
-.Profile {
-  float: right;
-}
-
-.Profile .info {
-  width: 70%;
-}
-
-.Profile h1 {
-  font-size: 1em;
-}
-
-.Profile p {
-  font-size: small;
-}
-
-.Profile img {
-  display: inline;
-  width: 3em;
-  height: 3em;
-  float: left;
-}
-
-.Profile .down {
-  float: right;
-}
-
 .hideList {
   text-align: center;
 }
@@ -64,13 +15,13 @@ input {
 .totalResults {
   color: #929292;
   font-size: x-small;
-  margin: auto auto auto 20px;
   display: inline;
+  margin-inline-start: 1em;
 }
 
 .listBtn {
   float: right;
-  padding: 0.5em;
+  padding: .5em;
   border: none;
 }
 
@@ -80,10 +31,10 @@ input {
 }
 
 .listTop {
-  margin: 1em auto 0.5em;
+  margin: 1em auto .5em;
 }
 
-.info {
+.Item .info {
   width: 70%;
   display: inline-block;
 }
@@ -94,35 +45,43 @@ input {
 }
 
 .pagination {
+  margin: 1em auto 1em auto;
   width: 50%;
   position: relative;
   clear: both;
-  margin: auto;
 }
 
 .Grid .Item {
   background: #fff;
-  border-radius: 7px;
-  box-shadow: 0 2px 5px #ccc;
-  width: 25%;
-  margin: auto auto 0.3em;
+  border-radius: .5em;
+  box-shadow: .1em .1em .1em .1em #ccc;
+  width: 32.3%;
+  height: 16em;
+  margin: auto auto .5em .5em;
   float: left;
-  padding: 10px;
 }
 
 .Grid .Item img {
-  float: right;
-  height: 100px;
-  width: 100px;
-  margin: 20px;
+  height: 4em;
+  width: 4em;
+  margin: 1.5em auto;
+  display: block;
+}
+
+.Grid .Item .info {
+  margin:0 0 0 1em;
+  text-align: left;
+}
+
+.Grid .Item h1 {
+  margin:0;
+  padding: 0;
 }
 
 .Grid .Item p {
-  font-size: 1em;
-  margin-bottom: 10px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  text-align: left;
+  font-size: .7em;
+  margin:0;
+  padding: 0;
 }
 
 .Grid .itemBtn {
@@ -130,14 +89,13 @@ input {
   border: none;
   background-color: #fff;
   font-size: small;
-  padding: 0;
 }
 
 .List .Item {
-  border-radius: 7px;
-  box-shadow: 0.1em 0.1em 0.1em 0.1em #ccc;
+  border-radius: .5em;
+  box-shadow: .1em .1em.1em.1em #ccc;
   margin: auto auto 1em;
-  padding: 10px;
+  padding: .7em;
 }
 
 .List .Item img {
@@ -149,7 +107,6 @@ input {
 
 .List .Item p {
   font-size: small;
-  margin-bottom: 1em;
   white-space: pre-wrap;
   word-wrap: break-word;
   text-align: left;
@@ -161,7 +118,6 @@ input {
   border: none;
   size: small;
   margin: auto;
-  padding: auto;
 }
 
 .Grid .Item h1,

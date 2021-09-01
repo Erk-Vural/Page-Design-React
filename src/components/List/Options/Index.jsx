@@ -12,6 +12,7 @@ function Index(props) {
       <button
         onClick={() => {
           props.getLayout("List");
+          
         }}
       >
         <img
