@@ -37,7 +37,7 @@ function List() {
           <div className="listTop">
             {getTotalResult()}
 
-            <button className="listBtn">
+            <button className="listBtn" onClick={getHidden}>
               <img src="../List/list-btn.png" alt="list-btn"></img>
             </button>
           </div>

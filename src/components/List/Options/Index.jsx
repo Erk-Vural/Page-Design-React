@@ -10,24 +10,25 @@ function Index(props) {
   const Display = (
     <div className="Display">
       <button
+        className="listBtn"
         onClick={() => {
           props.getLayout("List");
-          
         }}
       >
         <img
-          className="display-list"
+          className="listImg"
           src="../List/Options/list.png"
           alt="List"
         ></img>
       </button>
       <button
+        className="gridBtn"
         onClick={() => {
           props.getLayout("Grid");
         }}
       >
         <img
-          className="display-grid"
+          className="gridImg"
           src="../List/Options/grid.png"
           alt="Grid"
         ></img>

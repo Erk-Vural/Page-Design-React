@@ -30,16 +30,30 @@
   border: none;
 }
 
-.Display .display-list {
+.Display .listImg {
   width: 2.2em;
   height: 1.2em;
-  margin: auto;
+  margin: 0;
 }
 
-.Display .display-grid {
+.Display .listBtn:focus {
+  padding: 0;
+  border: 2px #6464c8 solid;
+  border-radius: 0.5em;
+  box-shadow: .1em 0.1em 0.1em 0.1em #ccc;
+}
+
+.Display .gridImg {
   width: 1.2em;
   height: 1.2em;
-  margin: auto;
+  padding: .1em .3em;
+}
+
+.Display .gridBtn:focus {
+  padding: 0;
+  border: 2px #6464c8 solid;
+  border-radius: 0.5em;
+  box-shadow: 0.1em 0.1em 0.1em 0.1em #ccc;
 }
 
 .FilterBy,

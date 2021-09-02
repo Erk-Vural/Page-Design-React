@@ -1,6 +1,6 @@
 .hideList {
   text-align: center;
-  margin:1em;
+  margin: 1em;
 }
 
 .hideList span {
@@ -22,7 +22,7 @@
 
 .listBtn {
   float: right;
-  padding: .5em;
+  padding: 0.5em;
   border: none;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .listTop {
-  margin: 1em auto .5em;
+  margin: 1em auto 0.5em;
 }
 
 .Item .info {
@@ -54,11 +54,11 @@
 
 .Grid .Item {
   background: #fff;
-  border-radius: .5em;
-  box-shadow: .1em .1em .1em .1em #ccc;
+  border-radius: 0.5em;
+  box-shadow: 0.1em 0.1em 0.1em 0.1em #ccc;
   width: 32.3%;
   height: 14em;
-  margin: auto auto .5em .5em;
+  margin: auto auto 0.5em 0.5em;
   float: left;
 }
 
@@ -70,40 +70,33 @@
 }
 
 .Grid .Item .info {
-  margin:0 0 0 1em;
+  margin: 0 0 0 1em;
   text-align: left;
 }
 
 .Grid .Item h1 {
-  margin:0;
+  margin: 0;
   padding: 0;
 }
 
 .Grid .Item p {
-  font-size: .7em;
-  margin:0;
+  font-size: 0.7em;
+  margin: 0;
   padding: 0;
 }
 
-.Grid .itemBtn {
-  float: right;
-  border: none;
-  background-color: #fff;
-  font-size: small;
-}
-
 .List .Item {
-  border-radius: .5em;
-  box-shadow: .1em .1em.1em.1em #ccc;
+  border-radius: 0.5em;
+  box-shadow: 0.1em 0.1em.1em.1em #ccc;
   margin: auto auto 1em;
-  padding: .7em;
+  padding: 0.7em;
 }
 
 .List .Item img {
   float: left;
   margin: 1em;
-  height: 1.5em;
-  width: 1.5em;
+  height: 1.4em;
+  width: 1.4em;
 }
 
 .List .Item p {
@@ -117,7 +110,6 @@
 .List .itemBtn {
   float: right;
   border: none;
-  size: small;
   margin: auto;
 }
 
