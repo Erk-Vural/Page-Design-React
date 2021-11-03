@@ -13,7 +13,7 @@ function Footer() {
         <a href="#!">Contact</a>
       </div>
 
-      <p className="copyRight">{year} ⓒ Faraday Networks</p>
+      <p className="copyRight">{year} ⓒ Erk Vural</p>
     </footer>
   );
 }
