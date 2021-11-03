@@ -8,7 +8,7 @@ function Profile() {
       <img src="../Header/profile.png" alt="profile-icon"></img>
       <div className="info">
         <h1>James Faraday</h1>
-        <p>Faraday Networks</p>
+        <p>Example Company</p>
       </div>
 
       <div className="down">
